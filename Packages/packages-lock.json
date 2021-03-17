@@ -1,7 +1,19 @@
 {
   "dependencies": {
+    "com.unity.2d.sprite": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
+    "com.unity.2d.tilemap": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
+    },
     "com.unity.cinemachine": {
-      "version": "2.3.4",
+      "version": "2.6.3",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
@@ -37,9 +49,23 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.postprocessing": {
+      "version": "2.3.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.progrids": {
+      "version": "3.0.3-preview.4",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.unity.render-pipelines.core": {
-      "version": "7.3.1",
-      "depth": 1,
+      "version": "7.5.1",
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "com.unity.ugui": "1.0.0"
@@ -67,11 +93,11 @@
       }
     },
     "com.unity.shadergraph": {
-      "version": "7.3.1",
+      "version": "7.5.1",
       "depth": 1,
       "source": "registry",
       "dependencies": {
-        "com.unity.render-pipelines.core": "7.3.1"
+        "com.unity.render-pipelines.core": "7.5.1"
       },
       "url": "https://packages.unity.com"
     },
@@ -96,10 +122,15 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.timeline": {
-      "version": "1.2.15",
+      "version": "1.2.18",
       "depth": 0,
       "source": "registry",
-      "dependencies": {},
+      "dependencies": {
+        "com.unity.modules.director": "1.0.0",
+        "com.unity.modules.animation": "1.0.0",
+        "com.unity.modules.audio": "1.0.0",
+        "com.unity.modules.particlesystem": "1.0.0"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.ugui": {
@@ -111,11 +142,11 @@
       }
     },
     "com.unity.visualeffectgraph": {
-      "version": "7.3.1",
-      "depth": 1,
+      "version": "7.5.1",
+      "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.shadergraph": "7.3.1"
+        "com.unity.shadergraph": "7.5.1"
       },
       "url": "https://packages.unity.com"
     },
