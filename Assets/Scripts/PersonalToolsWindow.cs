@@ -15,6 +15,15 @@ public class PersonalToolsWindow : EditorWindow
         {
             RoundItems();
         }
+
+        if(Selection.transforms.Length > 1) {
+
+            GUILayout.Label($"{Selection.gameObjects[0].name} looking -> {Selection.gameObjects[1].name}");
+        }
+
+        if (GUILayout.Button("Look At")) {
+            LookAt();
+        }
     }
    
     void RoundItems()
@@ -29,5 +38,13 @@ public class PersonalToolsWindow : EditorWindow
             pos.z = (float)Math.Round(pos.z * 2, MidpointRounding.AwayFromZero)/2;
             obj.transform.localPosition = pos;
         }
+    }
+
+    void LookAt() {
+        Vector3 oldRotation = Selection.transforms[0].eulerAngles;
+        Selection.transforms[0].LookAt(Selection.transforms[1]);
+        Vector3 newRotation = Selection.transforms[0].eulerAngles;
+
+        Debug.Log($"Updated GameObject '{Selection.transforms[0].name}' rotation\nOld: {oldRotation}, Current; {newRotation}");
     }
 }

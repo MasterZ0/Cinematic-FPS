@@ -81,6 +81,33 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+--- !u!1102 &-4710733832704354068
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Firing
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: -203655887218126122, guid: 65c4e87ac8f68d94d8b7f82cf5a7b8d3,
+    type: 3}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
 --- !u!1107 &-4370322772801494493
 AnimatorStateMachine:
   serializedVersion: 5
@@ -112,9 +139,6 @@ AnimatorStateMachine:
     m_State: {fileID: -7398362740446145250}
     m_Position: {x: 590, y: 150, z: 0}
   - serializedVersion: 1
-    m_State: {fileID: -3911697352648789432}
-    m_Position: {x: 250, y: 10, z: 0}
-  - serializedVersion: 1
     m_State: {fileID: 6190980307160339699}
     m_Position: {x: 270, y: 420, z: 0}
   - serializedVersion: 1
@@ -141,6 +165,9 @@ AnimatorStateMachine:
   - serializedVersion: 1
     m_State: {fileID: 5995942491978592070}
     m_Position: {x: 658.6944, y: 495.88568, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -4710733832704354068}
+    m_Position: {x: 250, y: 20, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -151,33 +178,6 @@ AnimatorStateMachine:
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: 6607986370801458876}
---- !u!1102 &-3911697352648789432
-AnimatorState:
-  serializedVersion: 5
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Shooting
-  m_Speed: 1
-  m_CycleOffset: 0
-  m_Transitions: []
-  m_StateMachineBehaviours: []
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
-  m_Motion: {fileID: -203655887218126122, guid: 4f97f210c8e23d546b0a982d7c446ee1,
-    type: 3}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
-  m_TimeParameter: 
 --- !u!1102 &-3132635541775572494
 AnimatorState:
   serializedVersion: 5

@@ -9,6 +9,7 @@
     "com.unity.ide.vscode": "1.2.1",
     "com.unity.postprocessing": "2.3.0",
     "com.unity.progrids": "3.0.3-preview.4",
+    "com.unity.recorder": "2.5.5",
     "com.unity.render-pipelines.high-definition": "7.3.1",
     "com.unity.render-pipelines.high-definition-config": "file:../LocalPackages/com.unity.render-pipelines.high-definition-config",
     "com.unity.test-framework": "1.1.16",
