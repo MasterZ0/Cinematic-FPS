@@ -1,4 +1,4 @@
-# WindLife Test
+# WildLife Test
  
 Introducing my cinematic creation, created using Unity's Timeline and Cinemachine. This short film is a test proposed by WildLife, meant to demonstrate the potential of an FPS game. I constructed this cinematic using only free assets from the Unity Asset Store and animations from Mixamo. The story follows a storyboard in which the player must carry out a mission to rescue hostages held by terrorists, with a dramatic bullet time effect on the final shot. 
 
